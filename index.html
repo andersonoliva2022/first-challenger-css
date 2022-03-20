@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./firstchallengercss.css" />
+
+
+    <title>Desafio 01 CSS</title>
+</head>
+
+<body>
+
+    <div id="area">
+        <p id="etiqueta">Cadastro</p>
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label id="name" for="nome">Nome:</label>
+
+            <input placeholder="Digite seu nome" name="Nome" id="nome" type="text" size="30" maxlength="30" required>
+
+            <label id="email" for="email">E-mail:</label>
+
+            <input type="email" name="email" id="email" placeholder="digite seu e-mail" size="20" maxlength="30"
+                required>
+
+
+            <label id="age" for="idade">Idade</label>
+
+            <input type="number" name="Idade" id="idade" required min="12" step="1">
+            </label>
+
+
+            <label id="birth" for="Data de Nascimento">Data de Nascimento</label>
+
+            <input type="date" name="data-nascimento" id="data-nascimento" required size="20">
+
+
+            <label id="social-networks">Onde você possui conta?
+                <div id="box-networks">
+
+                    <label>
+                        <input type="checkbox" name="Instagram"> Instagram
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="Facebook"> Facebook
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="YouTube"> Youtube
+                    </label>
+                </div>
+
+            </label>
+
+
+            <label id="sex">Sexo
+                <div id="box-sex">
+                    <label>
+                        <INPUT TYPE="RADIO" NAME="sexo" VALUE="fem"> feminino
+                    </label>
+
+                    <label>
+                        <INPUT TYPE="RADIO" NAME="sexo" VALUE="masc"> masculino
+                    </label>
+                </div>
+
+            </label>
+
+
+            <label id="color"> Cor dos olhos
+                <input type="color" name="Cor dos olhos">
+            </label>
+
+            <div>
+                <p id="bio">Biografia</p>
+            </div>
+            <label id="textarea"> 
+                <textarea name="Bio" placeholder="Fale brevemente sobre você"></textarea>
+            </label>
+
+
+            <label id="photo">Foto de perfil
+                <div id="box-photo">
+                    <input type="file" name="arquivo" accept="image/*">
+                </div>
+            </label>
+
+
+            <label id="tel">Telefone
+                <div>
+                    <input id="box-tel" type="tel" name="Telefone" maxlength="13">
+                </div>
+            </label>
+
+
+            <label id="link">Link de perfil no Facebook
+                <Div>
+                    <input type="url" name="url">
+                </Div>
+            </label>
+
+
+            <label id="password">Senha
+                <Div>
+                    <input type="password" name="Senha" min="6" max="8" required>
+                </Div>
+            </label>
+
+
+            <button id="clean" type="reset" name="reset">Limpar</button>
+
+            <button id="to-send" type="submit" name="submit">Enviar dados</button>
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

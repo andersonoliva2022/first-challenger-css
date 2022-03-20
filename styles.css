@@ -1,0 +1,194 @@
+*{
+    background-color: chartreuse;
+    font-family: 'Nunito Sans', sans-serif; 
+    margin: 3px;
+    margin-top: 7px;
+}
+
+#etiqueta{
+    background-color: chartreuse;
+    margin-right: 335mm;
+    margin-top: -3mm;
+    padding-left: 1mm;
+    padding-right: 18mm;
+
+}
+
+#area{
+    border-style:ridge
+}
+
+#name{
+    display: block;
+    margin-bottom: -8px;
+    color: blue;
+    font-size: larger;
+    padding-left: 2px;
+
+}
+
+#email{
+    display: block;
+    margin-bottom: -7px;
+    color: blue;
+    font-size-adjust: none;
+    padding-left: 2px;
+
+}
+
+#age{
+    display: block;
+    margin-bottom: -9px;
+    margin-top: 28px;
+    color: blue;
+    font-size: larger;
+    padding-left: 2px;
+
+}
+
+#birth{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: -9px;
+    color: blue;
+    font-size: larger;
+    padding-left: 2px;
+}
+
+#social-networks{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+}
+
+#box-network{
+    display: inline;
+
+}
+
+#sex{
+    display: block;
+    margin-top: -40px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+
+}
+
+#box-sex{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 3px;
+    padding-left: 2px;
+
+}
+
+#color{
+    display: block;
+    margin-bottom: 0px;
+    margin-top: -18px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+
+}
+
+#bio{
+    display: block;
+    margin-bottom: -10px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+
+}
+
+textarea{
+    background: #f9f9f9;
+}
+
+#photo{
+    display: block;
+    margin-top: 14px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+
+}
+
+#box-photo{
+    margin-top: -7px;
+}
+
+#tel{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+}
+
+
+#link{
+    display: block;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+
+}
+
+#password{
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: blue;
+    font-size: larger; 
+    padding-left: 2px;
+
+}
+
+input{
+    border-color: blue;
+    background-color: rgb(194, 243, 243);
+}
+
+#clean{
+    cursor: pointer;
+    border-color: blue;
+    background-color: rgb(255, 44, 255);
+    color: chartreuse;
+    margin-left: 5px;
+
+
+}
+
+#clean:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    background-color: rgb(255, 251, 0);
+    border-color: rgb(5, 247, 255);
+    color: rgb(247, 6, 6);
+
+}
+
+#to-send{
+    cursor: pointer;
+    border-color: blue;
+    background-color: rgb(255, 44, 255);
+    color: chartreuse;
+    margin-left: 5px;
+}
+
+#to-send:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    background-color: rgb(255, 251, 0);
+    border-color: rgb(5, 247, 255);
+    color: rgb(247, 6, 6);
+}
